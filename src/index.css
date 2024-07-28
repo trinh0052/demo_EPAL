@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-mulish {
+  font-family: "Mulish", sans-serif;
+}
+h1,
+h2,
+h3,
+p,
+.font-title,
+.font-subtitile,
+.font-subtitile2,
+body,
+.font-caption1,
+.font-caption2 {
+  padding: 0px;
+  margin: 0px;
+}
+
+h1,
+h2 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  line-height: 60px;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3,
+.font-title,
+.font-subtitile,
+.font-subtitile2 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.font-title {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.font-subtitile {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font-subtitile2,
+.font-caption1 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+body,
+.font-caption1,
+.font-caption2 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.font-caption2 {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.table-footer td {
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.no-bullets li {
+  padding-bottom: 2px;
+  margin-bottom: 22px;
+}
+
+.icon-size {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
+}
+
+.icon-size1 {
+  width: 26px;
+  height: 26px;
+  margin: 0px;
+}
+
+.icon-size2 {
+  width: 16px;
+  height: 16px;
+  margin: 0px;
+}
+
+.icon-size3 {
+  width: 8px;
+  height: 8px;
+  margin: 0px;
+}
+
+.carousel-container {
+  display: flex;
+  height: 100%;
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.carousel-container::-webkit-scrollbar {
+  width: 0px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  padding: 32px 0px;
+}
+
+.grid-container-about {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  padding: 32px 0px;
+}
+
+.grid-container-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1px;
+  padding: 0;
+}
+
+.grid-container-footer > * {
+  margin: 0;
+  padding: 0;
+}
+
+.underline {
+  text-decoration: none;
+}
+
+.underline:hover {
+  text-decoration: underline;
+}
